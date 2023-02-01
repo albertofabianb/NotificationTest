@@ -33,7 +33,7 @@ Directions to run the aplication
 5. Launch two servers, i.e. for instance run php artisan serve in two terminals
 6. Edit the .env file for the two servers addresses and ports, for instance:
 
-    URL_BACKEND=http://localhost:8001/
+    URL_BACKEND=http://localhost:8001/    
     URL_FRONTEND=http://localhost:8000/
 
 7. Open a browser and go to http://localhost:8000/ or to the URL_FRONTEND configured.
