@@ -16,9 +16,9 @@ LAMP environment installed and running, or at least a MySql server.
 
 Directions to run the aplication
 ================================
-1. Download the repository
-2. Open a terminal and run composer install (assuming that you have composer installed)
-3. Edit the .env file for using a MySql DB and create a database called "notifications"
+1. Download the repository.
+2. Open a terminal and run composer install (assuming that you have composer installed).
+3. Edit the .env file for using a MySql DB and create a database called "notifications".
 
     For instance:
 
@@ -29,8 +29,8 @@ Directions to run the aplication
     DB_USERNAME=root
     DB_PASSWORD=root
 
-4. Run: php artisan migrate --seed
-5. Launch two servers, i.e. for instance run php artisan serve in two terminals
+4. Run: "php artisan migrate --seed"
+5. Launch two servers, i.e. for instance run "php artisan serve" in two terminals.
 6. Edit the .env file for the two servers addresses and ports, for instance:
 
     URL_BACKEND=http://localhost:8001/    
