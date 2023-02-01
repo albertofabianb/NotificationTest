@@ -23,10 +23,15 @@ Directions to run the aplication
     For instance:
 
     DB_CONNECTION=mysql    
+    
     DB_HOST=127.0.0.1    
+    
     DB_PORT=3306    
+    
     DB_DATABASE=notifications
+    
     DB_USERNAME=root
+    
     DB_PASSWORD=root
 
 4. Run: "php artisan migrate --seed"
